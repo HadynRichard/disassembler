@@ -1,0 +1,15 @@
+This is a start to a disassembler project... certain components need
+a serious refactor. The purpose of this was to become more familiar
+with the JVM spec/class file format. The final outcome of this
+adventure should be a lot cleaner!
+
+Notes:
+	* Only a few instructions are supported (for testing purposes)
+	* Instruction arguments are ignored
+	* Exception table is ignored
+	* Some attribute parsing isn't impl yet
+	* You're really only supposed to use this on the supplied 'test.class' (this is not a complete project)
+	* If you don't feel like compiling and executing yourself, take a look at:
+		'test.disassembler.asm' for 'test.class' output in this disassembler
+		'test.javap.asm' for 'test.class' output in oracle's disassembler (javap)
+	* I haven't a clue when I'll finalize this project, so just stay tuned - it is near the top of my list, though!
